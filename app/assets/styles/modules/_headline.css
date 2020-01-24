@@ -1,5 +1,4 @@
 .headline {
-  /*Baseline Styles*/
   font-size: 1.9rem;
   font-weight: 300;
   color: $mainBlue;
@@ -18,7 +17,6 @@
 
   &--small {
     font-size: 1.2rem;
-
     @mixin atSmall {
       font-size: 1.875rem;
     }
@@ -26,7 +24,8 @@
 
   &--narrow {
     max-width: 500px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &--light {
@@ -38,7 +37,7 @@
   }
 
   &--b-margin-small {
-    margin-bottom: 0.5em;
+    margin-bottom: .5em;
   }
 
   &--b-margin-large {
